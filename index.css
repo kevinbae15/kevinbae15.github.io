@@ -1,0 +1,91 @@
+/* Stylesheet for index.html */
+
+body {
+	font-family: "Open Sans";
+	color: black;
+	box-sizing: border-box;
+}
+
+#left_container, #right_container {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0%;
+    overflow: hidden;
+}
+
+#right_container {
+    left: 50%;
+}
+
+#left_container {
+    left: 0px;
+}
+
+#left_overlay, #right_overlay {
+	position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#left_overlay {
+    background-color: black;
+    opacity: .35;
+    z-index: 2;
+}
+
+#right_overlay {
+    background-color: navajowhite;
+    opacity: 1;
+    z-index: -1;
+}
+
+#wholesome_pic {
+    position: absolute;
+    left: -50%;
+    height: 100%;
+}
+
+h1,p {
+	position:relative;
+	text-align: center;
+}
+
+h1 {
+	width: 50%;
+	margin: auto;
+	top: 25%;
+	border-bottom: black solid 1px;
+	line-height: 100px;
+}
+
+p {
+	top: 27%;
+}
+
+#links {
+	position: relative;
+	text-align: center;
+	top: 30%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	position: relative;
+	width: 125px;
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+	border: black solid 4px;
+}
+
+#resume_link, #bio_link {
+	font-weight: 700;
+	font-size: 20px;
+	width: 125px;
+	height: 60px;
+	display: inline-block;
+	margin: 0px 30px;
+}
+

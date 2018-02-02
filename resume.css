@@ -1,8 +1,9 @@
+/* General Formatting */
 body {
 	position: absolute;
 	width: 100%;
 	font-family: "Open Sans";
-	color: azure;
+	color: white;
 	margin: 0px;
 	padding: 0px;
 	background-color: wheat;
@@ -10,23 +11,50 @@ body {
 
 #head_section, .pic {
 	text-align: center;
-	height: 50vh;
+	height: 350px;
 }
 
+.pic {
+	background-attachment:fixed;
+	background-position: center;
+	background-size: cover
+}
+
+#head_section, .info {
+	z-index: 2;
+	background-color: wheat;
+	font-size: 30px;
+}
+
+p {
+	padding: 10px;
+	margin-left: 100px;
+}
+
+.bold {
+	font-weight: 700;
+	padding-top: 30px;
+	margin-left: 50px;
+}
+
+/* The beginning header */
 #head_section {
-	position: relative;
-	top: 0px;
-	font-size: 65px;
+	position: absolute;
+	width: 100%;
+	padding-top: 200px;
+	top: -200px;
+	height: 500px;
 }
 
-h1 { 
-	
+#header {
+	font-size: 100px;
 }
 
 i {
 	margin: 0px 50px;
-	color: black;
+	color: white;
 	transition: .5s;
+	font-size: 100px;
 }
 
 .fa-github-square:hover {
@@ -36,3 +64,43 @@ i {
 .fa-linkedin:hover {
 	color: #0077B5;
 }
+
+.big-text {
+	font-size: 100px;
+	line-height: 350px;
+}
+
+/* Education */
+#education_pic {
+	position: relative;
+	margin-top: 500px;
+	background-image: url("tufts.jpg");
+}
+
+#education_info {
+	height: 400px;
+}
+
+#eduction_subpart {
+	display: inline-flex;
+	margin-bottom: -20px;
+}
+
+#education_location {
+	padding-top: 30px;
+	margin-left: 20px;
+}
+
+/* Research */
+#research_pic {
+	margin-top:-100px;
+	background-image: url("research.jpg");
+}
+
+/* Skills */
+
+#skills_pic {
+	background-image: url("skills.jpg");
+}
+
+

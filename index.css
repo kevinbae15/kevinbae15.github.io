@@ -2,7 +2,7 @@
 
 body {
 	font-family: "Open Sans";
-	color: black;
+	color: white;
 	box-sizing: border-box;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 #right_overlay {
-    background-color: navajowhite;
+    background-color: #8FBCDB;
     opacity: 1;
     z-index: -1;
 }
@@ -55,7 +55,7 @@ h1 {
 	width: 50%;
 	margin: auto;
 	top: 25%;
-	border-bottom: black solid 1px;
+	border-bottom: white solid 1px;
 	line-height: 100px;
 }
 
@@ -71,13 +71,13 @@ p {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: white;
 	position: relative;
 	width: 125px;
 	height: 60px;
 	line-height: 60px;
 	display: inline-block;
-	border: black solid 4px;
+	border: white solid 4px;
 }
 
 #resume_link, #bio_link {

@@ -1,0 +1,38 @@
+body {
+	position: absolute;
+	width: 100%;
+	font-family: "Open Sans";
+	color: azure;
+	margin: 0px;
+	padding: 0px;
+	background-color: wheat;
+}
+
+#head_section, .pic {
+	text-align: center;
+	height: 50vh;
+}
+
+#head_section {
+	position: relative;
+	top: 0px;
+	font-size: 65px;
+}
+
+h1 { 
+	
+}
+
+i {
+	margin: 0px 50px;
+	color: black;
+	transition: .5s;
+}
+
+.fa-github-square:hover {
+	color:grey;
+}
+
+.fa-linkedin:hover {
+	color: #0077B5;
+}

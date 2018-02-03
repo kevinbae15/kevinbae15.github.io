@@ -1,7 +1,7 @@
 /* Stylesheet for bio.html */
 
 body {
-	font-family: cursive;
+	font-family: "Open Sans";
 	color: white;
 	box-sizing: border-box;
 }
@@ -57,7 +57,7 @@ h1 {
 }
 
 a {
-	font-family:"Open Sans";
+	font-family:"Open Sans", sans-serif;
 	text-decoration: none;
 	color: white;
 	position: relative;
@@ -76,8 +76,8 @@ a {
 	width: 125px;
 	height: 60px;
 	display: inline-block;
-	margin: 100px 0px;
-	margin-left: 125px;
+	margin: 75px -75px;
+	margin-left: 150px;
 }
 
 a:hover{

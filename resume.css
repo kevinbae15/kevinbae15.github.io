@@ -14,6 +14,36 @@ body {
 	height: 350px;
 }
 
+.links {
+	font-family:"Open Sans";
+	text-decoration: none;
+	color: white;
+	position: relative;
+	width: 125px;
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+	border: white solid 4px;
+	text-align: center;
+	transition: .5s;
+}
+
+#bio_link, #index_link {
+	font-weight: 700;
+	font-size: 20px;
+	width: 125px;
+	height: 60px;
+	display: inline-block;
+	margin: 75px 50px;
+	margin-left: 50px;
+}
+
+.links:hover{
+	color: gainsboro;
+	border-color: gainsboro;
+	transition: .5s;
+}
+
 .pic {
 	background-attachment:fixed;
 	background-position: center;
@@ -43,7 +73,7 @@ p {
 	width: 100%;
 	padding-top: 200px;
 	top: -200px;
-	height: 500px;
+	height: 600px;
 }
 
 #header {
@@ -58,7 +88,7 @@ i {
 }
 
 .fa-github-square:hover {
-	color:grey;
+	color:black;
 }
 
 .fa-linkedin:hover {
@@ -73,7 +103,7 @@ i {
 /* Education */
 #education_pic {
 	position: relative;
-	margin-top: 500px;
+	margin-top: 600px;
 	background-image: url("tufts.jpg");
 }
 
@@ -132,7 +162,4 @@ ul {
 .activity_items {
 	margin-top: 50px;
 }
-
-
-
 

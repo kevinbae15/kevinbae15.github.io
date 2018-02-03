@@ -1,7 +1,7 @@
-/* Stylesheet for index.html */
+/* Stylesheet for bio.html */
 
 body {
-	font-family: "Open Sans";
+	font-family: cursive;
 	color: white;
 	box-sizing: border-box;
 }
@@ -28,48 +28,36 @@ body {
     width: 100%;
 }
 
-#left_overlay {
+#right_overlay {
     background-color: black;
-    opacity: .35;
+    opacity: .05;
     z-index: 2;
 }
 
-#right_overlay {
-    background-color: #8FBCDB;
+#left_overlay {
+    background-color: #A84A5C;
     opacity: 1;
     z-index: -1;
 }
 
 #wholesome_pic {
     position: absolute;
-    left: -50%;
-    height: 100%;
-}
-
-h1,p {
-	position:relative;
-	text-align: center;
+	left: -50px;
+	height: 100%;
 }
 
 h1 {
-	width: 50%;
-	margin: auto;
-	top: 25%;
-	border-bottom: white solid 1px;
-	line-height: 100px;
-}
-
-p {
-	top: 27%;
-}
-
-#links {
-	position: relative;
 	text-align: center;
-	top: 30%;
+	font-size: 70px;
+}
+
+#bio_p {
+	width: 50%;
+	margin:auto;
 }
 
 a {
+	font-family:"Open Sans";
 	text-decoration: none;
 	color: white;
 	position: relative;
@@ -78,16 +66,18 @@ a {
 	line-height: 60px;
 	display: inline-block;
 	border: white solid 4px;
+	text-align: center;
 	transition: .5s;
 }
 
-#resume_link, #bio_link {
+#resume_link, #index_link {
 	font-weight: 700;
 	font-size: 20px;
 	width: 125px;
 	height: 60px;
 	display: inline-block;
-	margin: 0px 30px;
+	margin: 100px 0px;
+	margin-left: 125px;
 }
 
 a:hover{
@@ -95,4 +85,3 @@ a:hover{
 	border-color: gainsboro;
 	transition: .5s;
 }
-

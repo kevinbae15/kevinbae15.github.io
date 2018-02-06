@@ -30,7 +30,7 @@ body {
 
 #left_overlay {
     background-color: black;
-    opacity: .35;
+    opacity: .05;
     z-index: 2;
 }
 

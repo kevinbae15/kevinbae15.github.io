@@ -29,9 +29,9 @@ body {
 }
 
 #left_overlay {
-    background-color: black;
-    opacity: .05;
-    z-index: 2;
+    background-image: url("wholesome.jpg");
+	background-position: center;
+	background-size: cover;
 }
 
 #right_overlay {
@@ -40,19 +40,13 @@ body {
     z-index: -1;
 }
 
-#wholesome_pic {
-    position: absolute;
-    left: -50%;
-    height: 100%;
-}
-
 h1,p {
 	position:relative;
 	text-align: center;
 }
 
 h1 {
-	width: 50%;
+	width: 75%;
 	margin: auto;
 	top: 25%;
 	border-bottom: white solid 1px;
@@ -61,6 +55,8 @@ h1 {
 
 p {
 	top: 27%;
+	width: 80%;
+	margin: 20px auto;
 }
 
 #links {
@@ -96,3 +92,22 @@ a:hover{
 	transition: .5s;
 }
 
+@media only screen and (max-width: 750px) {
+	#right_container {
+		left: 0%;
+		width: 100%;
+	}
+	
+	#left_container {	
+		width: 100%;
+	}
+	
+	#right_overlay {
+		z-index: 2;
+		opacity: .70;
+	}
+	
+	h1, p, #links {
+		z-index: 3;
+	}
+} 

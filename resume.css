@@ -132,6 +132,11 @@ i {
 	margin-left: 20px;
 }
 
+#education_gpa {
+	margin-top: -30px;
+	
+}
+
 
 
 /* Experience */
@@ -226,7 +231,7 @@ i {
 	}
 	
 	#education_gpa{
-		margin-top: -25px;
+		margin-top: -35px;
 	}
 	
 	#education_major_year {

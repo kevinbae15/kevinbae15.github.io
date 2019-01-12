@@ -123,7 +123,7 @@ i {
 }
 
 #eduction_subpart, #experience_subpart, #experience_subpart2, #experience_subpart3, 
-#experience_subpart4 {
+#experience_subpart4, #experience_subpart5 {
 	display: inline-flex;
 	margin-bottom: -20px;
 }

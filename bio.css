@@ -54,7 +54,7 @@ h1 {
 #bio_p {
 	width: 75%;
 	margin:auto;
-	font-size: 12px;
+	font-size: 20px;
 	line-height: 35px;
 }
 
@@ -113,13 +113,13 @@ a:hover{
 	}
 	
 	h1 {
-		font-size: 20px;
+		font-size: 50px;
 		margin-top: 50px;
 	}
 	
 	#bio_p {
-		font-size: 10px;
-		line-height: 20px;
+		font-size: 25px;
+		line-height: 40px;
 	}
 } 
 
